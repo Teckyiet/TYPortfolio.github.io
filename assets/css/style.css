@@ -328,7 +328,6 @@ section {
   );
   --heading-color: rgb(50, 50, 50);
   --card-bg: rgb(255, 255, 255);
-  --card-height: 200px;
   --card-width: min(90vw, 400px);
 }
 
@@ -344,7 +343,7 @@ section {
 .card {
   flex-grow: 2;
   --card-text: black;
-  height: var(--card-height);
+  height: auto;
   width: var(--card-width);
   margin: 0px 10px;
   margin-top: 24px;
@@ -357,6 +356,7 @@ section {
 .card-content > p {
   color: var(--card-text);
   font-weight: 600;
+  line-height: 36px;
 }
 
 .card > h2 {
@@ -364,6 +364,7 @@ section {
   font-family: "Permanent Marker", cursive;
   color: white;
   padding: 0.1em 0.3em;
+  margin-bottom: 6px;
 }
 
 .skills-card {
@@ -371,7 +372,6 @@ section {
 }
 
 .skills-card > .card-content ul {
-  margin-top: 6px;
   list-style: none;
   display: flex;
   align-items: center;
@@ -438,7 +438,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 10px 0px;
 }
 
 .recentwork-card-content > ul li{
