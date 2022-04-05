@@ -384,8 +384,7 @@ section {
   background: url(https://svg2raster.fileformat.info/vlz.jsp?svg=%2Flogos%2Fjquery%2Fjquery-icon.svg&width=30&height=30), black;
   width: 30px;
   height: 30px;
-  margin: auto;
-  margin-top: 2px;
+  margin: 6px auto;
 }
 
 .skills-card > .card-content ul li {
