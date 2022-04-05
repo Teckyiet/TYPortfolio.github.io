@@ -312,9 +312,10 @@ p {
 /* ------------------------------ END OF HEADER ----------------------------- */
 /* -------------------------------------------------------------------------- */
 
-/* ----------------------------- To be continue ----------------------------- */
+/* ------------------------------- 2. SECTION ------------------------------- */
 section {
   padding-bottom: 2vh;
+  min-height: 100vh;
   background: whitesmoke;
   background-position: 50% 30%;
   font-size: 2rem;
@@ -522,17 +523,22 @@ section {
   border: none;
   color: white;
   cursor: pointer;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.4s;
 }
 
 .demo-btn{
-  background: rgb(61, 2, 100)
+  background: rgb(14, 6, 119)
 }
 
 .source-code-btn{
-  background: rgb(211, 8, 184)
+  background: rgb(23, 194, 180)
 }
 
-
+.card-btn:hover{
+  opacity: 0.7;
+}
 
 
 
