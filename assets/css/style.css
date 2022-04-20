@@ -493,6 +493,24 @@ section {
   background-position: 60% 0%;
 }
 
+/* ------------------------------- Project Two ------------------------------ */
+.projectThree{
+  background: url(../Images/cryptoSpaceImg.jpg) rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-size: 102%;
+  background-position: 60% 10%;
+  transition-property: background;
+  transition-duration: 0.6s;
+}
+
+.projectThree:hover{
+  background: url(../Images/cryptoSpaceImg.jpg) rgba(0, 0, 0, 0.1);
+  background-blend-mode: multiply;
+  background-size: 107%;
+  background-position: 60% 0%;
+}
+
+
 .recentwork-card-content > ul li span{
   font-family: "Roboto", sans-serif;
   font-weight: 600;

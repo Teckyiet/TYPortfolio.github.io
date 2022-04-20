@@ -80,19 +80,21 @@ projectOneSourceCodeBtn.addEventListener("click", () => {
 /* ------------------------------- projectTwo ------------------------------- */
 const projectTwoDemoBtn = document.querySelector(".demo-btn2");
 projectTwoDemoBtn.addEventListener("click", () => {
-  return window.open(
-    "https://teckyiet.github.io/react_tictactoe/",
-    "_blank",
-  );
+  return window.open("https://teckyiet.github.io/react_tictactoe/", "_blank");
 });
 
 const projectTwoSourceCodeBtn = document.querySelector(".source-code-btn2");
 projectTwoSourceCodeBtn.addEventListener("click", () => {
-  return window.open(
-    "https://github.com/Teckyiet/react_tictactoe",
-    "_blank",
-  );
+  return window.open("https://github.com/Teckyiet/react_tictactoe", "_blank");
 });
 
+/* ------------------------------ projectThree ------------------------------ */
+const projectThreeDemoBtn = document.querySelector(".demo-btn3");
+projectThreeDemoBtn.addEventListener("click", () => {
+  return window.open("https://teckyiet.github.io/CryptoSpace/", "_blank");
+});
 
-
+const projectThreeSourceCodeBtn = document.querySelector(".source-code-btn3");
+projectThreeSourceCodeBtn.addEventListener("click", () => {
+  return window.open("https://github.com/Teckyiet/CryptoSpace", "_blank");
+});
